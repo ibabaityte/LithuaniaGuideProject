@@ -1,0 +1,118 @@
+img{
+    width: 75%;
+    height: 480px;
+}
+
+body{
+    margin: 0px;
+    background: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.headerText{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    letter-spacing: 4px;
+    font-family: 'Source Serif Pro', serif;
+    margin-bottom: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+
+
+.row{
+    width: 80%;
+    background-color: rgb(242, 242, 242, 0.7);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.button{
+    font-weight: bold;
+    display: flex;
+    font-family: 'Source Serif Pro', serif;
+    background-color: rgb(242, 242, 242, 0.7);
+    color: black;
+    border: 2px solid rgb(115, 115, 115);
+    height: 40px;
+    border-radius: 3px;
+    letter-spacing: 2.5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.button:hover {
+  background-color: rgb(217, 217, 217);
+}
+
+.mySlides{
+    display: none;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+hr{
+    margin: auto;
+    width: 30%;
+    background-color: gray;
+    margin-bottom: 10px;
+}
+
+footer{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 6px;
+    padding: 5px;
+    width: 79.2%;
+    margin: auto;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(242, 242, 242, 0.7);
+}
+
+a:-webkit-any-link{
+    color: black;
+    text-decoration: none;
+}
+
+.where{
+    display: block;
+    height: 100px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    width: 80%;
+}
+
+.why{
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    width: 80%;
+}
