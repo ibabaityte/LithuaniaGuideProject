@@ -1,18 +1,31 @@
+/* Reset margins and paddings for all elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+
 img{
     width: 75%;
     height: 480px;
 }
 
-div {
-    
+.background {
+	background-image: url("../images/Vilnius.jpg");
+	background-position: center;
+	background-size: cover;
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: -1;
+	filter: blur(1px);
+  	-webkit-filter: blur(1px);
 }
 
-body{
-    margin: 0px;
-    background: url("../images/background.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.background-overlay {
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
 .headerText{
