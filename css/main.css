@@ -4,11 +4,6 @@
 	padding: 0;
 }
 
-img{
-    width: 75%;
-    height: 480px;
-}
-
 .background {
 	background-image: url("../images/Vilnius.jpg");
 	background-position: center;
@@ -41,17 +36,6 @@ img{
     color: black;
 }
 
-
-.row{
-    width: 80%;
-    background-color: rgb(242, 242, 242, 0.7);
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
 .navButton{
     font-weight: bold;
     display: flex;
@@ -72,27 +56,6 @@ img{
 
 .navButton:hover {
   background-color: rgb(217, 217, 217);
-}
-
-.mySlides{
-    display: none;
-}
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
 }
 
 hr{

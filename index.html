@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Just a page about Lithuania</title>
         <link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/carousel/carousel.css">
         <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
     </head>
     <body>
@@ -17,13 +18,26 @@
         </div>
 
         <div class="row">
-            <img class = "mySlides fade" src="images/background3.jpg" alt="">
-            <img class = "mySlides fade" src="images/Nida.jpg" alt="">
-            <img class = "mySlides fade" src="images/Kopos.jpg" alt="">
-            <img class = "mySlides fade" src="images/Kopos 2.jpg" alt="">
-            <img class = "mySlides fade" src="images/Traku Pilis.jpg" alt="">
-            <img class = "mySlides fade" src="images/Pieva.jpg" alt="">
-            <img class = "mySlides fade" src="images/Ezeras.jpg" alt="">
+            <img class = "slides fade" src="images/background3.jpg" alt="">
+            <img class = "slides fade" src="images/Nida.jpg" alt="">
+            <img class = "slides fade" src="images/Kopos.jpg" alt="">
+            <img class = "slides fade" src="images/Kopos 2.jpg" alt="">
+            <img class = "slides fade" src="images/Traku Pilis.jpg" alt="">
+            <img class = "slides fade" src="images/Pieva.jpg" alt="">
+            <img class = "slides fade" src="images/Ezeras.jpg" alt="">
+
+			<span class="previousBtn" onclick="previous()">&#10094;</span>
+			<span class="nextBtn" onclick="next()">&#10095;</span>
+
+			<div class="dotContainer">
+  				<span class="dot" onclick="pickSlide(1)"></span>
+  				<span class="dot" onclick="pickSlide(2)"></span>
+  				<span class="dot" onclick="pickSlide(3)"></span>
+				<span class="dot" onclick="pickSlide(4)"></span>
+				<span class="dot" onclick="pickSlide(5)"></span>
+				<span class="dot" onclick="pickSlide(6)"></span>
+				<span class="dot" onclick="pickSlide(7)"></span>
+			</div>
         </div>
 
         <div class="nav">
