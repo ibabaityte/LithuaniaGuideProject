@@ -109,6 +109,7 @@ body{
 }
 
 .text{
+	text-align: justify;
 	margin: auto;
 	width: 95%
 }
