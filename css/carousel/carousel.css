@@ -1,10 +1,12 @@
 img{
     width: 75%;
     height: 480px;
+    border-radius: 3px;
+    box-shadow: 15px -3px 33px -8px rgba(0,0,0,0.75);
 }
 
 .row{
-    width: 80%;
+    width: 80vw;
     background-color: rgb(242, 242, 242, 0.5);
     border-radius: 3px;
     display: flex;
