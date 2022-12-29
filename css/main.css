@@ -29,6 +29,9 @@ body{
 
 .header {
 	width: 100%;
+}
+
+.main {
 	height: 100vh;
 }
 
@@ -37,24 +40,21 @@ body{
     justify-content: center;
     margin-top: 5px;
     letter-spacing: 10px;
-	font-weight: 400;
     font-family: 'Source Serif Pro', serif;
     margin-bottom: 3px;
     text-decoration: none;
     font-weight: bold;
     font-size: 30px;
     color: white;
-	text-shadow:0px 4px 3px rgba(0,0,0,0.4),
-				0px 8px 13px rgba(0,0,0,0.1),
-				0px 18px 23px rgba(0,0,0,0.1)
+	text-shadow:0 4px 3px rgba(0,0,0,0.4),
+				0 8px 13px rgba(0,0,0,0.1),
+				0 18px 23px rgba(0,0,0,0.1)
 }
 
 .navButton {
 	padding: 6px;
     font-weight: bold;
     font-family: 'Source Serif Pro', serif;
-	/* background-color: rgb(242, 242, 242, 0.9); */
-	/* box-shadow: 8px 5px 15px -4px rgba(0,0,0,0.75); */
 	border: 2px solid black;
 	border-radius: 8px;
 	width: 80px;
@@ -62,8 +62,7 @@ body{
     color: black;
     text-decoration: none;
 	text-align: center;
-	/* margin-left: 10px; */
-	/* float: right; */
+	margin: 0 15px;
 }
 
 .navButton:hover {
@@ -74,20 +73,20 @@ body{
     position: -webkit-sticky;
     position: sticky;
 	padding: 10px;
-    top: 0px;
+    top: 0;
     width: 100%;
 	z-index: 1;
     background-color: rgb(242, 242, 242,0.5);
+	display: flex;
+	justify-content: center;
 }
 
 .where{
     width: 50%;
-    margin: auto;
+    margin: 10px auto;
     text-align: center;
     padding-top: 65px;
 	padding-bottom: 50px;
-	margin-top: 10px;
-	margin-bottom: 10px;
     background-color: rgb(242, 242, 242, 0.5);
 	border-radius: 3px;
 	line-height: 2;
@@ -108,9 +107,9 @@ body{
 
 .title{
 	padding-bottom: 10px;
-	text-shadow:0px 4px 3px rgba(0,0,0,0.4),
-				0px 8px 13px rgba(0,0,0,0.1),
-				0px 18px 23px rgba(0,0,0,0.1)
+	text-shadow: 0 4px 3px rgba(0,0,0,0.4),
+				0 8px 13px rgba(0,0,0,0.1),
+				0 18px 23px rgba(0,0,0,0.1)
 }
 
 .link{
